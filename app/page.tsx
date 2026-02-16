@@ -1,65 +1,126 @@
-import Image from "next/image";
+import React from 'react'
 
-export default function Home() {
+import Navbar from './components/Navbar'
+import ProductCard from './components/ProductCard'
+import Footer from './components/Footer'
+
+import Image from 'next/image'
+import { Search, FlaskConical, Sparkles, Github } from 'lucide-react'
+
+export default function page() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main>
+      <Navbar />
+      {/* Hero Section */}
+      <section className="bg-background py-16 md:py-24 mt-5">
+        <div className="center-content flex flex-col md:flex-row items-center justify-between gap-12">
+
+          {/* Left Content */}
+          <div className="flex-1 space-y-8">
+            <h1 className="text-[48px] md:text-[64px] font-bold leading-[1.1] tracking-tight text-[#111827]">
+              Smart Ingredient <br />
+              Analysis for <br />
+              <span className="text-primary">Healthier Skin</span>
+            </h1>
+
+            <p className="text-[#4B5563] text-lg md:text-xl max-w-lg leading-relaxed">
+              Decode the science behind your skincare. Instant ingredient
+              breakdowns and smarter companions for a glowing complexion.
+            </p>
+
+            <button className="btn-primary px-10 py-4 text-md">
+              Start Analyzing
+            </button>
+          </div>
+
+          {/* Right Image Container */}
+          <div className="flex-1 relative w-full max-w-[500px]">
+            {/* ส่วนของเงาและกรอบรูปที่ทำให้เหมือนในต้นฉบับ */}
+            <div className="relative aspect-square md:aspect-[4/5] overflow-hidden rounded-[2.5rem] shadow-2xl">
+              <Image
+                src="/hero-img.png" // เปลี่ยนชื่อไฟล์ตามที่คุณต้องการ
+                alt="Smart Ingredient Analysis"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
+
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+      </section>
+
+      {/* How it works section */}
+      <section className="py-24 bg-white">
+        <div className="center-content mx-auto px-6 md:px-20 ">
+          {/* Header */}
+          <div className="mb-16">
+            <span className="text-primary font-bold text-sm tracking-widest uppercase">The Process</span>
+            <h2 className="text-4xl font-bold mt-3">How it Works</h2>
+            <p className="text-slate-400 mt-4 text-lg">Our simple three-step process to help you understand what you're putting on your skin.</p>
+          </div>
+
+          {/* Steps Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <StepCard
+              icon={<Search className="text-primary" size={24} />}
+              title="Search Product"
+              desc="Find any product in our extensive database of 50,000+ items instantly by name or brand."
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            <StepCard
+              icon={<FlaskConical className="text-primary" size={24} />}
+              title="Decode Ingredients"
+              desc="We break down complex chemical names into simple terms, highlighting irritants and allergens."
+            />
+            <StepCard
+              icon={<Sparkles className="text-primary" size={24} />}
+              title="Compare Ingredients"
+              desc="Discover cleaner formulation alternatives that match your skin type preferences automatically."
+            />
+          </div>
         </div>
-      </main>
-    </div>
-  );
+      </section>
+
+      {/* Featured Clean Product Section */}
+      <section className="py-24 bg-background">
+        <div className="center-content">
+          {/* Header Section */}
+          <div className="flex justify-between items-end mb-12">
+            <div>
+              <h2 className="text-4xl font-bold text-slate-900">Featured Clean Products</h2>
+              <p className="text-slate-500 mt-3 text-lg">
+                Curated selections with transparent ingredient lists.
+              </p>
+            </div>
+            <button className="text-primary font-bold hover:underline cursor-pointer transition-all">
+              View all
+            </button>
+          </div>
+
+          {/* Product Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[1, 2, 3, 4].map((i) => (
+              <ProductCard key={i} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Footer Section */}
+      <Footer/>
+    </main>
+  )
 }
+
+function StepCard({ icon, title, desc }) {
+  return (
+    <div className="bg-[#f9fafb] p-10 rounded-3xl hover:bg-white hover:shadow-xl transition-all duration-300 group border border-transparent hover:border-slate-100 cursor-pointer">
+      <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center mb-8 shadow-sm group-hover:scale-110 transition-transform">
+        {icon}
+      </div>
+      <h3 className="text-2xl font-bold mb-4">{title}</h3>
+      <p className="text-slate-400 leading-relaxed text-sm">{desc}</p>
+    </div>
+  )
+}
+
