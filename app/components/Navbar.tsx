@@ -19,7 +19,7 @@ export default function Navbar() {
         </div>
 
         {/* Navigation Links */}
-        <ul className="flex items-center space-x-10">
+        <ul className="flex items-center space-x-10 max-lg:hidden">
           <li className=''>
             <a href="#" className="text-md font-semibold text-slate-600 hover:text-primary transition-colors">
               Home
