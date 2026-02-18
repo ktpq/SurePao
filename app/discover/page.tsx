@@ -16,10 +16,10 @@ export default function page() {
         <p className='mt-3 text-primary'> Analyze ingredients and find the perfect match for your skin </p>
 
 
-        <section className='flex space-x-5 py-4'>
+        <section className='flex space-x-5 py-4 max-xl:flex-col'>
 
           {/* sidebar */}
-          <aside className='w-[300px] p-4'>
+          <aside className='w-[300px] p-4 max-xl:w-full'>
             <div className='flex justify-between items-center'>
                 <h3 className='text-xl font-semibold'> Filters </h3>
                 <button className="text-primary px-2 py-2 hover:bg-primary/5 rounded-lg transition-colors cursor-pointer">
@@ -37,7 +37,7 @@ export default function page() {
                   <Search color='#8013eb' className='absolute top-2 left-5'/>
               </div>
               {/* product container */}
-              <div className='grid grid-cols-3 gap-10 my-10'>
+              <div className='grid grid-cols-3 gap-10 my-10 max-lg:grid-cols-2 max-sm:grid-cols-1'>
                   {[1,2,3,4,5,6,7].map((item) => (
                     <ProductCard key={item}/>
                   ))}

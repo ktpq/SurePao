@@ -14,7 +14,7 @@ export default function CategoryFilter() {
   ];
 
   return (
-    <div className="w-full max-w-[300px] space-y-4 mt-5">
+    <div className="w-full space-y-4 mt-5">
       {/* Container หลัก */}
       <div className={`bg-white rounded-xl transition-all duration-300 ${isOpen ? 'p-6' : 'p-5'}`}>
         
