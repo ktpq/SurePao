@@ -21,12 +21,12 @@ export default function Navbar() {
         {/* Navigation Links */}
         <ul className="flex items-center space-x-10 max-lg:hidden">
           <li className=''>
-            <a href="#" className="text-md font-semibold text-slate-600 hover:text-primary transition-colors">
+            <a href="/" className="text-md font-semibold text-slate-600 hover:text-primary transition-colors">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="text-md font-semibold text-slate-600 hover:text-primary transition-colors">
+            <a href="/discover" className="text-md font-semibold text-slate-600 hover:text-primary transition-colors">
               Discover
             </a>
           </li>
