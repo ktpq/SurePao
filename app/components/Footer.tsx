@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className="bg-white border-t border-slate-100 py-6">
             <div className="center-content flex flex-col md:flex-row justify-between items-center gap-8">
                 <div className="flex items-center gap-3 font-bold text-2xl">
-                    <img src="./logo.svg" alt="SurePao" className="w-8 h-8" />
+                    <img src="../logo.svg" alt="SurePao" className="w-8 h-8" />
                     <span className="tracking-tight">SurePao</span>
                 </div>
 

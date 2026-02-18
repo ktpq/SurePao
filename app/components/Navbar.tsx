@@ -9,7 +9,7 @@ export default function Navbar() {
         {/* Logo Section */}
         <div className="flex items-center space-x-4">
           <img 
-            src="./logo.svg" 
+            src="../logo.svg" 
             alt="SurePao Logo" 
             className="w-8 h-8" 
           />
