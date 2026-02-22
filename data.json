@@ -1,0 +1,302 @@
+[
+  {
+    "name": "CeraVe Hydrating Facial Cleanser",
+    "image_url": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/master/us/products/hydrating-facial-cleanser/700x850/cerave_hydrating_facial_cleanser_12oz_front-700x850-v3.jpg",
+    "ingredientList": "Aqua, Glycerin, Cetearyl Alcohol, Peg-40 Stearate, Stearyl Alcohol, Potassium Phosphate, Ceramide NP, Ceramide AP, Ceramide EOP, Carbomer, Glyceryl Stearate, Behentrimonium Methosulfate, Sodium Lauroyl Lactylate, Sodium Hyaluronate, Cholesterol, Phenoxyethanol, Disodium EDTA, Dipotassium Phosphate, Tocopherol, Phytosphingosine, Xanthan Gum, Ethylhexylglycerin",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": false,
+    "brandName": "CeraVe",
+    "categoryName": "Cleanser"
+  },
+  {
+    "name": "La Roche-Posay Effaclar Purifying Foaming Gel",
+    "image_url": "https://www.laroche-posay.us/-/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lrp-master-catalog/default/dw4f5d6b42/product/Effaclar/effaclar-gel-facial-wash.jpg?sw=540&sh=720&sm=fit",
+    "ingredientList": "Aqua, Sodium Laureth Sulfate, PEG-8, Coco-Betaine, Hexylene Glycol, Sodium Chloride, PEG-120 Methyl Glucose Dioleate, Zinc PCA, Sodium Hydroxide, Citric Acid, Sodium Benzoate, Phenoxyethanol, Caprylyl Glycol, Parfum",
+    "isFragance": true,
+    "isAlcohol": false,
+    "isSilicones": false,
+    "brandName": "La Roche-Posay",
+    "categoryName": "Cleanser"
+  },
+  {
+    "name": "The Ordinary Squalane Cleanser",
+    "image_url": "https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwbc703551/Images/products/The%20Ordinary/rdn-squalane-cleanser-50ml.png?sw=800&sh=1000&sm=fit",
+    "ingredientList": "Squalane, Aqua, Coco-Caprylate/Caprate, Glycerin, Sucrose Stearate, Ethyl Macadamiate, Caprylic/Capric Triglyceride, Hydrogenated Starch Hydrolysate, Sucrose Laurate, Polyacrylate Crosspolymer-6, Isoceteth-20, Sodium Polyacrylate, Tocopherol, Hydroxymethoxyphenyl Decanone, Trisodium Ethylenediamine Disuccinate, Malic Acid, Ethylhexylglycerin, Chlorphenesin",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": false,
+    "brandName": "The Ordinary",
+    "categoryName": "Cleanser"
+  },
+  {
+    "name": "Kiehl's Ultra Facial Cleanser",
+    "image_url": "https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw4356a422/Face/Cleansers/Ultra_Facial_Cleanser/Kiehls-Face-Cleanser-Ultra-Facial-Cleanser-150ml-000-3605970030175-Front.jpg?sw=620&sh=780&sm=fit",
+    "ingredientList": "Aqua, Glycerin, Decyl Glucoside, Sodium Laureth Sulfate, PEG-7 Glyceryl Cocoate, Disodium Cocoamphodiacetate, Acrylates Beheneth-25 Methacrylate Copolymer, Phenoxyethanol, Methylparaben, Sodium Chloride, Paeonia Suffruticosa Root Extract, Propylparaben, Squalane, Prunus Armeniaca Kernel Oil, Tocopherol, Persea Gratissima Oil",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": false,
+    "brandName": "Kiehl's",
+    "categoryName": "Cleanser"
+  },
+  {
+    "name": "Paula's Choice Clear Pore Normalizing Cleanser",
+    "image_url": "https://www.paulaschoice.com/dw/image/v2/BBNX_PRD/on/demandware.static/-/Sites-pc-catalog/default/dwf90a5e80/images/products/clear-pore-normalizing-cleanser-6001-L.png?sw=600&sh=800&sm=fit",
+    "ingredientList": "Aqua, Sodium Lauroyl Sarcosinate, Acrylates/Steareth-20 Methacrylate Copolymer, Glycerin, PEG-200 Hydrogenated Glyceryl Palmate, Sodium Laureth Sulfate, Salicylic Acid, Arginine, Butylene Glycol, PEG-7 Glyceryl Cocoate, Panthenol, Disodium EDTA, Citric Acid, Phenoxyethanol, Caprylyl Glycol",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": false,
+    "brandName": "Paula's Choice",
+    "categoryName": "Cleanser"
+  },
+  {
+    "name": "Neutrogena Hydro Boost Hydrating Cleansing Gel",
+    "image_url": "https://www.neutrogena.com/dw/image/v2/BBRV_PRD/on/demandware.static/-/Sites-johnson-master-catalog/default/dwf7412850/images/neutrogena/skincare/681109400_HydroBoostCleansingGel_6oz_00000_Front.jpg?sw=600&sh=800&sm=fit",
+    "ingredientList": "Water, Glycerin, Cocamidopropyl Hydroxysultaine, Sodium Cocoyl Isethionate, Sodium Methyl Cocoyl Taurate, Sodium Hydrolyzed Potato Starch Dodecenylsuccinate, Hydrolyzed Hyaluronic Acid, Ethylhexylglycerin, Linoleamidopropyl PG-Dimonium Chloride Phosphate, Polyquaternium-10, Polysorbate 20, Sodium Isethionate, Sodium C14-16 Olefin Sulfonate, Potassium Acrylates Copolymer, Sodium Chloride, Disodium EDTA, Citric Acid, Sodium Hydroxide, Phenoxyethanol, Fragrance",
+    "isFragance": true,
+    "isAlcohol": false,
+    "isSilicones": false,
+    "brandName": "Neutrogena",
+    "categoryName": "Cleanser"
+  },
+  {
+    "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "image_url": "https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw15d86f7b/Images/products/The%20Ordinary/rdn-niacinamide-10pct-zinc-1pct-30ml.png?sw=800&sh=1000&sm=fit",
+    "ingredientList": "Aqua, Niacinamide, Pentylene Glycol, Zinc PCA, Dimethyl Isosorbide, Tamarinus Indica Seed Gum, Xanthan Gum, Isoceteth-20, Ethoxydiglycol, Phenoxyethanol, Chlorphenesin",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": false,
+    "brandName": "The Ordinary",
+    "categoryName": "Serum"
+  },
+  {
+    "name": "La Roche-Posay Hyalu B5 Pure Hyaluronic Acid Serum",
+    "image_url": "https://www.laroche-posay.us/-/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lrp-master-catalog/default/dw2049e751/product/HyaluB5/hyalu-b5-hyaluronic-acid-serum.jpg?sw=540&sh=720&sm=fit",
+    "ingredientList": "Aqua, Glycerin, Alcohol Denat., Propylene Glycol, Panthenol, Pentylene Glycol, Dimethicone, PEG-6 Caprylic/Capric Glycerides, PPG-6-Decyltetradeceth-30, Glyceryl Isostearate, Madecassoside, Sodium Hyaluronate, Ammonium Polyacryloyldimethyl Taurate, Disodium EDTA, Hydrolyzed Hyaluronic Acid, Caprylyl Glycol, Citric Acid, Xanthan Gum, Butylene Glycol, Tocopherol, Phenoxyethanol, Parfum",
+    "isFragance": true,
+    "isAlcohol": true,
+    "isSilicones": true,
+    "brandName": "La Roche-Posay",
+    "categoryName": "Serum"
+  },
+  {
+    "name": "Paula's Choice Clinical 1% Retinol Treatment",
+    "image_url": "https://www.paulaschoice.com/dw/image/v2/BBNX_PRD/on/demandware.static/-/Sites-pc-catalog/default/dw1a0a5e80/images/products/clinical-1-percent-retinol-treatment-8010-L.png?sw=600&sh=800&sm=fit",
+    "ingredientList": "Water, Dimethicone, Glycerin, Butylene Glycol, Isononyl Isononanoate, Castor Isostearate Succinate, Glyceryl Stearate, C12-15 Alkyl Benzoate, Dimethicone Crosspolymer, Retinol, Magnesium Ascorbyl Phosphate, Dipotassium Glycyrrhizate, Salix Alba Bark Extract, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Ceramide NG, Sodium Hyaluronate, Allantoin, Avena Sativa Kernel Extract, Palmitoyl Hexapeptide-12",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": true,
+    "brandName": "Paula's Choice",
+    "categoryName": "Serum"
+  },
+  {
+    "name": "CeraVe Resurfacing Retinol Serum",
+    "image_url": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/master/us/products/resurfacing-retinol-serum/resurfacing-retinol-serum-700x850.jpg",
+    "ingredientList": "Aqua, Cyclopentasiloxane, Glycerin, Niacinamide, Pentylene Glycol, Ammonium Polyacryloyldimethyl Taurate, Hydrogenated Lecithin, Potassium Phosphate, Ceramde NP, Ceramide AP, Ceramide EOP, Carbomer, Isopropyl Lauroyl Sarcosinate, Silica, Demethicone/Vinyl Dimethicone Crosspolymer, Sodium Hyaluronate, Cholesterol, Phenoxyethanol, Retinol, Disodium EDTA, Capryloyl Salicylic Acid, Caprylyl Glycol, Xanthan Gum, Phytosphingosine, Ethylhexylglycerin",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": true,
+    "brandName": "CeraVe",
+    "categoryName": "Serum"
+  },
+  {
+    "name": "Kiehl's Powerful-Strength Line-Reducing Concentrate",
+    "image_url": "https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw47b4d320/Face/Serums/Powerful_Strength_Line_Reducing_Concentrate/Kiehls-Face-Serum-Powerful-Strength-Line-Reducing-Concentrate-50ml-000-3605971536102-Front.jpg?sw=620&sh=780&sm=fit",
+    "ingredientList": "Propylene Glycol, Dimethicone, Glycerin, Ascorbic Acid, Ethylhexyl Palmitate, Cetyl PEG/PPG-10/1 Dimethicone, Dimethicone Crosspolymer, Ascorbyl Glucoside, Cyclohexasiloxane, Hydroxyethylpiperazine Ethane Sulfonic Acid, Lauroyl Lysine, Acrylonitrile/Methyl Methacrylate/Vinylidene Chloride Copolymer, Adenosine, Polysilicone-11, Limonene, Isobutane, Citrus Aurantium Dulcis Peel Oil, Lemon Peel Oil, Citral, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate",
+    "isFragance": true,
+    "isAlcohol": false,
+    "isSilicones": true,
+    "brandName": "Kiehl's",
+    "categoryName": "Serum"
+  },
+  {
+    "name": "The Ordinary Hyaluronic Acid 2% + B5",
+    "image_url": "https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw069509df/Images/products/The%20Ordinary/rdn-hyaluronic-acid-2pct-b5-30ml.png?sw=800&sh=1000&sm=fit",
+    "ingredientList": "Aqua, Sodium Hyaluronate, Pentylene Glycol, Propanediol, Sodium Hyaluronate Crosspolymer, Panthenol, Ahnfeltia Concinna Extract, Glycerin, Trisodium Ethylenediamine Disuccinate, Citric Acid, Isoceteth-20, Ethoxydiglycol, Ethylhexylglycerin, Hexylene Glycol, 1,2-Hexanediol, Phenoxyethanol, Caprylyl Glycol",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": false,
+    "brandName": "The Ordinary",
+    "categoryName": "Serum"
+  },
+  {
+    "name": "CeraVe Moisturizing Cream",
+    "image_url": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/master/us/products/moisturizing-cream/700x850/cerave_moisturizing_cream_16oz_front-700x850-v3.jpg",
+    "ingredientList": "Aqua, Glycerin, Cetearyl Alcohol, Caprylic/Capric Triglyceride, Cetyl Alcohol, Ceteareth-20, Petrolatum, Potassium Phosphate, Ceramide NP, Ceramide AP, Ceramide EOP, Carbomer, Dimethicone, Behentrimonium Methosulfate, Sodium Lauroyl Lactylate, Sodium Hyaluronate, Cholesterol, Phenoxyethanol, Disodium EDTA, Dipotassium Phosphate, Tocopherol, Phytosphingosine, Xanthan Gum, Ethylhexylglycerin",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": true,
+    "brandName": "CeraVe",
+    "categoryName": "Moisturizer"
+  },
+  {
+    "name": "Neutrogena Hydro Boost Water Gel",
+    "image_url": "https://www.neutrogena.com/dw/image/v2/BBRV_PRD/on/demandware.static/-/Sites-johnson-master-catalog/default/dw060a5e80/images/neutrogena/skincare/681104700_HydroBoostWaterGel_1.7oz_00000_Front.jpg?sw=600&sh=800&sm=fit",
+    "ingredientList": "Water, Glycerin, Dimethicone, Cetearyl Olivate, Sorbitan Olivate, Polyacrylate Crosspolymer-6, Betaine, Caprylyl Glycol, Synthetic Beeswax, Ethylhexylglycerin, Pentylene Glycol, Sodium Hyaluronate, Dimethicone Crosspolymer, Dimethiconol, Sodium Hydroxide, Fragrance, Blue 1",
+    "isFragance": true,
+    "isAlcohol": false,
+    "isSilicones": true,
+    "brandName": "Neutrogena",
+    "categoryName": "Moisturizer"
+  },
+  {
+    "name": "Kiehl's Ultra Facial Cream",
+    "image_url": "https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dwed90a5e80/Face/Moisturizers/Ultra_Facial_Cream/Kiehls-Face-Moisturizer-Ultra-Facial-Cream-50ml-000-3605971973952-Front.jpg?sw=620&sh=780&sm=fit",
+    "ingredientList": "Aqua, Glycerin, Cyclohexasiloxane, Squalane, Bis-PEG-18 Methyl Ether Dimethyl Silane, Ethylhexyl Palmitate, Pentaerythrityl Tetraethylhexanoate, Forstyl Alcohol, Glyceryl Stearate, PEG-100 Stearate, Cera Alba, Prunus Armeniaca Kernel Oil, Phenoxyethanol, Pseudoalteromonas Ferment Extract, Sodium Polyacrylate, Caprylyl Glycol, Cetyl Alcohol, Salicylic Acid, Persea Gratissima Oil, Tocopherol",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": true,
+    "brandName": "Kiehl's",
+    "categoryName": "Moisturizer"
+  },
+  {
+    "name": "La Roche-Posay Toleriane Double Repair Face Moisturizer",
+    "image_url": "https://www.laroche-posay.us/-/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lrp-master-catalog/default/dw782e5d6b/product/Toleriane/toleriane-double-repair-face-moisturizer.jpg?sw=540&sh=720&sm=fit",
+    "ingredientList": "Aqua, Glycerin, Dimethicone, Hydrogenated Polyisobutene, Niacinamide, Ammonium Polyacryloyldimethyl Taurate, Myristyl Myristate, Stearic Acid, Ceramide NP, Potassium Cetyl Phosphate, Isobutane, Glyceryl Stearate SE, Sodium Hydroxide, Myristic Acid, Palmitic Acid, Capryloyl Glycine, Caprylyl Glycol, Xanthan Gum, T-Butyl Alcohol, Acrylonitrile/Methyl Methacrylate/Vinylidene Chloride Copolymer, Tocopherol",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": true,
+    "brandName": "La Roche-Posay",
+    "categoryName": "Moisturizer"
+  },
+  {
+    "name": "The Ordinary Natural Moisturizing Factors + HA",
+    "image_url": "https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwf90a5e80/Images/products/The%20Ordinary/rdn-natural-moisturizing-factors-ha-30ml.png?sw=800&sh=1000&sm=fit",
+    "ingredientList": "Aqua, Caprylic/Capric Triglyceride, Cetyl Alcohol, Propanediol, Stearyl Alcohol, Glycerin, Sodium Hyaluronate, Arginine, Aspartic Acid, Glycine, Alanine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Glucose, Maltose, Fructose, Trehalose, Sodium PCA, PCA, Sodium Lactate, Urea, Allantoin, Linoleic Acid, Oleic Acid, Phytosteryl Canola Glycerides, Palmitic Acid, Stearic Acid, Lecithin, Triolein, Tocopherol, Carbomer, Isoceteth-20, Polysorbate 60, Sodium Chloride, Citric Acid, Trisodium Ethylenediamine Disuccinate, Ethoxydiglycol, Ethylhexylglycerin, Phenoxyethanol, Chlorphenesin",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": false,
+    "brandName": "The Ordinary",
+    "categoryName": "Moisturizer"
+  },
+  {
+    "name": "Paula's Choice Skin Recovery Replenishing Moisturizer",
+    "image_url": "https://www.paulaschoice.com/dw/image/v2/BBNX_PRD/on/demandware.static/-/Sites-pc-catalog/default/dw8c10a5e80/images/products/skin-recovery-replenishing-moisturizer-1860-L.png?sw=600&sh=800&sm=fit",
+    "ingredientList": "Aqua, Helianthus Annuus Seed Oil, Ethylhexyl Ethylhexanoate, Glycerin, Arctium Lappa Root Extract, Cyclopentasiloxane, Glyceryl Stearate, PEG-100 Stearate, Tocopherol, Sodium Hyaluronate, Magnesium Ascorbyl Phosphate, Evening Primrose Oil, Panthenol, Allantoin, Aloe Barbadensis Leaf Juice, Chamomilla Recutita Flower Extract, Bisabolol",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": true,
+    "brandName": "Paula's Choice",
+    "categoryName": "Moisturizer"
+  },
+  {
+    "name": "Neutrogena Deep Clean Cleansing Oil",
+    "image_url": "https://www.neutrogena.com/dw/image/v2/BBRV_PRD/on/demandware.static/-/Sites-johnson-master-catalog/default/dw4f5d6b42/images/neutrogena/skincare/681109000_DeepCleanCleansingOil_6.7oz_00000_Front.jpg?sw=600&sh=800&sm=fit",
+    "ingredientList": "Mineral Oil, Isopropyl Isostearate, C12-15 Alkyl Benzoate, Polysorbate 80, PEG-8 Glyceryl Isostearate, Sorbitan Trioleate, Isostearyl Isostearate, Fragrance, BHT, Camellia Oleifera Leaf Extract, Rosmarinus Officinalis Leaf Extract",
+    "isFragance": true,
+    "isAlcohol": false,
+    "isSilicones": false,
+    "brandName": "Neutrogena",
+    "categoryName": "Cleansing"
+  },
+  {
+    "name": "La Roche-Posay Micellar Water Ultra",
+    "image_url": "https://www.laroche-posay.us/-/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lrp-master-catalog/default/dw412e5d6b/product/MicellarWater/micellar-water-ultra-reactive-skin.jpg?sw=540&sh=720&sm=fit",
+    "ingredientList": "Aqua, Glycerin, PEG-7 Caprylic/Capric Glycerides, Poloxamer 124, Poloxamer 184, PEG-6 Caprylic/Capric Glycerides, Polysorbate 80, Disodium EDTA, BHT, Myrtrimonium Bromide, Parfum",
+    "isFragance": true,
+    "isAlcohol": false,
+    "isSilicones": false,
+    "brandName": "La Roche-Posay",
+    "categoryName": "Cleansing"
+  },
+  {
+    "name": "Kiehl's Midnight Recovery Botanical Cleansing Oil",
+    "image_url": "https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw212e5d6b/Face/Cleansers/Midnight_Recovery_Botanical_Cleansing_Oil/Kiehls-Face-Cleanser-Midnight-Recovery-Botanical-Cleansing-Oil-175ml-000-3605971167436-Front.jpg?sw=620&sh=780&sm=fit",
+    "ingredientList": "Ethylhexyl Palmitate, Zea Mays Germ Oil, Isopropyl Myristate, Caprylic/Capric Triglyceride, Polyglyceryl-10 Dioleate, Polyglyceryl-6 Dicaprate, Sorbitan Oleate, Sagittaria Trifolia Herb Oil, Pelargonium Graveolens Flower Oil, Helianthus Annuus Seed Oil, Rosemary Leaf Oil, Lavender Oil, Isopropyl Lauroyl Sarcosinate, Dicaprylyl Ether, Dicaprylyl Carbonate, Tocopherol, Geraniol, Linalool, Citronellol",
+    "isFragance": true,
+    "isAlcohol": false,
+    "isSilicones": false,
+    "brandName": "Kiehl's",
+    "categoryName": "Cleansing"
+  },
+  {
+    "name": "Paula's Choice Gentle Touch Makeup Remover",
+    "image_url": "https://www.paulaschoice.com/dw/image/v2/BBNX_PRD/on/demandware.static/-/Sites-pc-catalog/default/dw412e5d6b/images/products/gentle-touch-makeup-remover-2400-L.png?sw=600&sh=800&sm=fit",
+    "ingredientList": "Aqua, Cyclotetrasiloxane, Isododecane, Glycerin, Aloe Barbadensis Leaf Juice, Camellia Oleifera Leaf Extract, Sodium Hyaluronate, Bisabolol, Allantoin, Butylene Glycol, Sodium Chloride, Potassium Phosphate, Dipotassium Phosphate, Hexylene Glycol, Tetrasodium EDTA, Phenoxyethanol, Chlorphenesin",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": true,
+    "brandName": "Paula's Choice",
+    "categoryName": "Cleansing"
+  },
+  {
+    "name": "CeraVe Comforting Eye Makeup Remover",
+    "image_url": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/master/us/products/eye-makeup-remover/700x850/cerave_eye_makeup_remover_front-700x850.jpg",
+    "ingredientList": "Aqua, Isohexadecane, Isopropyl Palmitate, Ethylhexyl Palmitate, Dipotassium Phosphate, Ceramide NP, Ceramide AP, Ceramide EOP, Carbomer, Sodium Hyaluronate, Sodium Lauroyl Lactylate, Cholesterol, Phenoxyethanol, Disodium EDTA, Propylene Glycol, Caprylyl Glycol, Phytosphingosine, Xanthan Gum, Ethylhexylglycerin",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": false,
+    "brandName": "CeraVe",
+    "categoryName": "Cleansing"
+  },
+  {
+    "name": "Neutrogena Oil-Free Eye Makeup Remover",
+    "image_url": "https://www.neutrogena.com/dw/image/v2/BBRV_PRD/on/demandware.static/-/Sites-johnson-master-catalog/default/dw122e5d6b/images/neutrogena/skincare/680110000_OilFreeEyeMakeupRemover_3.8oz_00000_Front.jpg?sw=600&sh=800&sm=fit",
+    "ingredientList": "Water, Cyclopentasiloxane, Cyclohexasiloxane, Aloe Barbadensis Leaf Juice, Benzyl Alcohol, Sodium Chloride, Dipropylene Glycol, Poloxamer 182, Allantoin, Tripotassium EDTA, Benzalkonium Chloride, Glycerin, Cucumber Fruit Extract, Potassium Phosphate, Dipotassium Phosphate",
+    "isFragance": false,
+    "isAlcohol": true,
+    "isSilicones": true,
+    "brandName": "Neutrogena",
+    "categoryName": "Cleansing"
+  },
+  {
+    "name": "La Roche-Posay Anthelios Melt-in Milk Sunscreen SPF 60",
+    "image_url": "https://www.laroche-posay.us/-/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lrp-master-catalog/default/dw222e5d6b/product/Anthelios/anthelios-melt-in-milk-sunscreen-spf-60.jpg?sw=540&sh=720&sm=fit",
+    "ingredientList": "Avobenzone, Homosalate, Octisalate, Octocrylene, Aqua, Styrene/Acrylates Copolymer, Dimethicone, Polymethylsilsesquioxane, Butyloctyl Salicylate, Glycerin, Alcohol Denat., Poly C10-30 Alkyl Acrylate, Caprylyl Methicone, Trisiloxane, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, PEG-100 Stearate, Glyceryl Stearate, Phenoxyethanol, Potassium Cetyl Phosphate, Tocopherol, Chlorphenesin, Ethylhexylglycerin, Sodium Polyacrylate, Sodium Hydroxide",
+    "isFragance": false,
+    "isAlcohol": true,
+    "isSilicones": true,
+    "brandName": "La Roche-Posay",
+    "categoryName": "Sunscreen"
+  },
+  {
+    "name": "CeraVe AM Facial Moisturizing Lotion SPF 30",
+    "image_url": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/master/us/products/am-facial-moisturizing-lotion-with-sunscreen/700x850/cerave_am_facial_moisturizing_lotion_3oz_front-700x850-v3.jpg",
+    "ingredientList": "Homosalate, Meradimate, Octinoxate, Octocrylene, Zinc Oxide, Aqua, Glycerin, Caprylic/Capric Triglyceride, Niacinamide, Cetearyl Alcohol, Dimethicone, Ceteareth-20, Ceramide NP, Ceramide AP, Ceramide EOP, Sodium Hyaluronate, Cholesterol, Phenoxyethanol, Stearic Acid, Isostearic Acid, Tocopherol, Xanthan Gum, Ethylhexylglycerin",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": true,
+    "brandName": "CeraVe",
+    "categoryName": "Sunscreen"
+  },
+  {
+    "name": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 55",
+    "image_url": "https://www.neutrogena.com/dw/image/v2/BBRV_PRD/on/demandware.static/-/Sites-johnson-master-catalog/default/dw322e5d6b/images/neutrogena/skincare/681100200_UltraSheerDryTouchSPF55_3oz_00000_Front.jpg?sw=600&sh=800&sm=fit",
+    "ingredientList": "Avobenzone, Homosalate, Octisalate, Octocrylene, Water, Silica, Butyloctyl Salicylate, Styrene/Acrylates Copolymer, Glycerin, Ethylhexylglycerin, PEG-100 Stearate, Glyceryl Stearate, Benzyl Alcohol, Cyclopentasiloxane, Beeswax, Trideceth-6, Chlorphenesin, Disodium EDTA, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Fragrance",
+    "isFragance": true,
+    "isAlcohol": false,
+    "isSilicones": true,
+    "brandName": "Neutrogena",
+    "categoryName": "Sunscreen"
+  },
+  {
+    "name": "Paula's Choice Extra Care Non-Greasy Sunscreen SPF 50",
+    "image_url": "https://www.paulaschoice.com/dw/image/v2/BBNX_PRD/on/demandware.static/-/Sites-pc-catalog/default/dw422e5d6b/images/products/extra-care-non-greasy-sunscreen-spf-50-2320-L.png?sw=600&sh=800&sm=fit",
+    "ingredientList": "Homosalate, Oxybenzone, Octisalate, Avobenzone, Octocrylene, Water, Silica, Butylene Glycol, Cetyl Dimethicone, Aluminum Starch Octenylsuccinate, PEG-100 Stearate, Glyceryl Stearate, Aloe Barbadensis Leaf Juice, Ascorbyl Palmitate, Tocopherol, Retinyl Palmitate, Benzyl Alcohol, Phenoxyethanol",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": true,
+    "brandName": "Paula's Choice",
+    "categoryName": "Sunscreen"
+  },
+  {
+    "name": "Kiehl's Ultra Light Daily UV Defense SPF 50 PA++++",
+    "image_url": "https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw522e5d6b/Face/Sunscreen/Ultra_Light_Daily_UV_Defense_SPF_50/Kiehls-Face-Sunscreen-Ultra-Light-Daily-UV-Defense-SPF-50-30ml-000-3605971691238-Front.jpg?sw=620&sh=780&sm=fit",
+    "ingredientList": "Aqua, Ethylhexyl Methoxycinnamate, Glycerin, Cyclopentasiloxane, Terephthalylidene Dicamphor Sulfonic Acid, Propylene Glycol, Drometrizole Trisiloxane, Alcohol Denat., Triethanolamine, Titanium Dioxide, Stearic Acid, Potassium Cetyl Phosphate, Palmitic Acid, PEG-100 Stearate, Glyceryl Stearate, Phenoxyethanol, Cetyl Alcohol, Aluminum Hydroxide, Methylparaben, Sodium Cocoyl Sarcosinate, Caprylyl Glycol, Carbomer, Tocopherol, Tromethamine, Ethylparaben",
+    "isFragance": false,
+    "isAlcohol": true,
+    "isSilicones": true,
+    "brandName": "Kiehl's",
+    "categoryName": "Sunscreen"
+  },
+  {
+    "name": "The Ordinary Mineral UV Filters SPF 30 with Antioxidants",
+    "image_url": "https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw622e5d6b/Images/products/The%20Ordinary/rdn-mineral-uv-filters-spf-30-with-antioxidants-50ml.png?sw=800&sh=1000&sm=fit",
+    "ingredientList": "Aqua, Cyclopentasiloxane, Zinc Oxide, Titanium Dioxide, PEG-10 Dimethicone, Glycerin, Helianthus Annuus Seed Oil, Hydrogenated Castor Oil, Magnesium Sulfate, Tocopherol, Arginine, Aspartic Acid, Glycine, Alanine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Sodium PCA, PCA, Sodium Lactate, Urea, Allantoin, Glucose, Maltose, Fructose, Trehalose, Sodium Hyaluronate, Phytic Acid, Phenoxyethanol, Ethylhexylglycerin",
+    "isFragance": false,
+    "isAlcohol": false,
+    "isSilicones": true,
+    "brandName": "The Ordinary",
+    "categoryName": "Sunscreen"
+  }
+]

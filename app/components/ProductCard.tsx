@@ -1,36 +1,40 @@
 import React from 'react'
-import Image from 'next/image'
 
-export default function ProductCard() {
+export default function ProductCard({ product }) {
   return (
-    <div className="bg-white border border-slate-100 rounded-3xl p-5 group transition-all hover:shadow-xl hover:border-transparent">
+    // 1. เพิ่ม flex flex-col และ h-full เพื่อให้ Card ยืดเต็มความสูง
+    <div className="bg-white border border-slate-100 rounded-3xl p-5 group transition-all hover:shadow-xl hover:border-transparent flex flex-col h-full">
+      
       {/* Image Container */}
-      <div className="relative aspect-[1/1.2] bg-[#F8F9FB] rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
-        <span className="absolute top-4 right-5 text-[10px] font-bold text-slate-800 uppercase tracking-widest z-10 bg-white px-2 rounded-2xl">
-          Serum
+      <div className="relative aspect-[1/1.2] bg-[#F8F9FB] rounded-2xl mb-6 flex items-center justify-center overflow-hidden shrink-0">
+        <span className="absolute top-4 right-5 text-[10px] font-bold text-slate-800 uppercase tracking-widest z-10 bg-white px-2 py-0.5 rounded-2xl shadow-sm">
+          {product.category.name}
         </span>
         
-        {/* เปลี่ยนจาก object-contain เป็น object-cover เพื่อให้รูปเต็มกรอบ */}
         <div className="relative w-full h-full transition-transform duration-500 group-hover:scale-105">
-          <Image 
-            src="/hero-img.png" 
-            alt="Product Name"
-            fill
-            className="object-cover" 
-            sizes="(max-width: 768px) 100vw, 25vw"
+          <img 
+            src={product.image_url}
+            alt={product.name}
+            className="w-full h-full object-cover" 
           />
         </div>
       </div>
 
       {/* Product Info */}
-      <h4 className="font-bold text-xl mb-6 text-slate-800 px-1">Product Name</h4>
+      {/* 2. ใช้ min-h เพื่อจองพื้นที่ชื่อสินค้า และ line-clamp เพื่อให้ชื่อยาวไม่ดันปุ่มเสียทรง */}
+      <div className="flex-grow">
+        <h4 className="font-bold text-xl mb-6 text-slate-800 px-1 line-clamp-2 min-h-[3.5rem]">
+          {product.name}
+        </h4>
+      </div>
       
-      <div className="flex items-center justify-between gap-3">
-        <button className="text-sm font-bold text-primary px-2 py-2 hover:bg-primary/5 rounded-lg transition-colors cursor-pointer">
+      {/* 3. mt-auto จะดันกลุ่มปุ่มลงไปด้านล่างสุดเสมอ */}
+      <div className="flex items-center justify-between gap-3 mt-auto pt-2">
+        <button className="text-sm font-bold text-primary px-2 py-2 hover:bg-primary/5 rounded-lg transition-colors cursor-pointer whitespace-nowrap">
           Details
         </button>
         
-        <button className="btn-primary flex-1 py-2.5 px-4 text-[11px] uppercase tracking-widest font-bold">
+        <button className="btn-primary flex-1 py-2.5 px-4 text-[11px] uppercase tracking-widest font-bold rounded-xl bg-primary text-white hover:bg-primary/90 transition-all">
           Compare
         </button>
       </div>

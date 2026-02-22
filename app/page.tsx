@@ -97,9 +97,9 @@ export default function page() {
           </div>
 
           <div className="grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-8">
-            {[1, 2, 3, 4].map((i) => (
+            {/* {[1, 2, 3, 4].map((i) => (
               <ProductCard key={i} />
-            ))}
+            ))} */}
           </div>
         </div>
       </section>

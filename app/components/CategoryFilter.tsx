@@ -10,7 +10,8 @@ export default function CategoryFilter() {
     "Cleanser",
     "Serum",
     "Moisturizer",
-    "Cleansing"
+    "Cleansing",
+    "Sunscreen"
   ];
 
   return (
