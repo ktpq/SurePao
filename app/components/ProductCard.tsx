@@ -30,9 +30,9 @@ export default function ProductCard({ product }) {
       
       {/* 3. mt-auto จะดันกลุ่มปุ่มลงไปด้านล่างสุดเสมอ */}
       <div className="flex items-center justify-between gap-3 mt-auto pt-2">
-        <button className="text-sm font-bold text-primary px-2 py-2 hover:bg-primary/5 rounded-lg transition-colors cursor-pointer whitespace-nowrap">
+        <a className="text-sm font-bold text-primary px-2 py-2 hover:bg-primary/5 rounded-lg transition-colors cursor-pointer whitespace-nowrap" href={`/product/${product.id}`}>
           Details
-        </button>
+        </a>
         
         <button className="btn-primary flex-1 py-2.5 px-4 text-[11px] uppercase tracking-widest font-bold rounded-xl bg-primary text-white hover:bg-primary/90 transition-all">
           Compare

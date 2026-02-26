@@ -1,4 +1,5 @@
 import React from 'react'
+import axios from 'axios'
 
 import Navbar from './components/Navbar'
 import ProductCard from './components/ProductCard'
@@ -7,7 +8,10 @@ import Footer from './components/Footer'
 import Image from 'next/image'
 import { Search, FlaskConical, Sparkles, Github } from 'lucide-react'
 
-export default function page() {
+export default async function page() {
+  const response = await axios.get('http://localhost:3000/api/product/random');
+  const data = response.data;
+  console.log(data)
   return (
     <main>
       <Navbar />
@@ -28,9 +32,9 @@ export default function page() {
               breakdowns and smarter companions for a glowing complexion.
             </p>
 
-            <button className="btn-primary px-10 py-4 text-md max-lg:mx-auto">
+            <a className="btn-primary px-10 py-4 text-md max-lg:mx-auto w-fit" href='/discover'>
               Start Analyzing
-            </button>
+            </a>
           </div>
 
           {/* Right Image Container */}
@@ -97,9 +101,10 @@ export default function page() {
           </div>
 
           <div className="grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-8">
-            {/* {[1, 2, 3, 4].map((i) => (
-              <ProductCard key={i} />
-            ))} */}
+            {data.map((prod) => (
+              <ProductCard key={prod.id} product={prod}/>
+            ))}
+
           </div>
         </div>
       </section>
