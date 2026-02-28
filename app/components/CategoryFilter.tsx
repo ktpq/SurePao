@@ -1,9 +1,14 @@
 'use client'
 import { useState } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { ChevronDown } from 'lucide-react';
 
 export default function CategoryFilter() {
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(true);
+
+  const searchParams = useSearchParams();
+  const currentCategory = searchParams.get('category')?.split(',') || [];
   
   // รายการหมวดหมู่ตามรูปภาพ
   const categories = [
@@ -13,6 +18,29 @@ export default function CategoryFilter() {
     "Cleansing",
     "Sunscreen"
   ];
+
+  const handleToggle = (categoryName: string) => {
+    const params = new URLSearchParams(searchParams.toString());
+    let newCategory = [...currentCategory];
+
+    if (newCategory.includes(categoryName)) {
+      // ถ้าติ๊กซ้ำ = เอาออก
+      newCategory = newCategory.filter(c => c !== categoryName);
+    } else {
+      // ถ้ายังไม่ติ๊ก = เพิ่มเข้าไป
+      newCategory.push(categoryName);
+    }
+
+    // 4. อัปเดต URL Param โดยไม่กระทบคำ Search เดิม
+    if (newCategory.length > 0) {
+      params.set('category', newCategory.join(','));
+    } else {
+      params.delete('category'); // ถ้าไม่เหลืออะไรเลย ให้ลบทิ้ง
+    }
+
+    // สั่งเปลี่ยน URL
+    router.push(`?${params.toString()}`);
+  }
 
   return (
     <div className="w-full space-y-4 mt-5">
@@ -43,6 +71,8 @@ export default function CategoryFilter() {
                 <div className="relative flex items-center justify-center">
                   <input 
                     type="checkbox" 
+                    checked={currentCategory.includes(category)} 
+                    onChange={() => handleToggle(category)} 
                     className="peer appearance-none w-6 h-6 border-2 border-slate-200 rounded-md checked:bg-primary checked:border-primary transition-all cursor-pointer"
                   />
                   {/* เครื่องหมายถูก (แสดงเมื่อถูกเลือก) */}
