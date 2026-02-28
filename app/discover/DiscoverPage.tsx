@@ -1,22 +1,34 @@
 'use client'
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 
 import CategoryFilter from '../components/CategoryFilter'
 import ProductCard from '../components/ProductCard'
 
 import { Search } from 'lucide-react'
+import { useDebounce } from '@/hooks/useDebounce'
 
 export default function DiscoverPage({allProduct, search}) {
   const router = useRouter()
-  const [searchQuery, setSearchQuery] = useState(search)
+  const [searchQuery, setSearchQuery] = useState(search || "")
 
-  const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter"){
-      router.push(`/discover?search=${encodeURIComponent(searchQuery)}`)
+  const debouncedSearch = useDebounce(searchQuery, 500)
+
+  useEffect(() => {
+    // ป้องกันไม่ให้ push URL ซ้ำตอนโหลดหน้าเว็บครั้งแรก
+    if (debouncedSearch !== search) {
+      if (debouncedSearch) {
+        // ถ้ามีคำค้นหา
+        router.push(`/discover?search=${encodeURIComponent(debouncedSearch)}`)
+      } else {
+        // ถ้าลบคำค้นหาจนหมด ให้เคลียร์ URL
+        router.push(`/discover`)
+      }
     }
-  }
+  }, [debouncedSearch, router, search])
+
+  
   return (
     <section className='center-content py-14'>
         <h1 className='text-3xl font-bold'> Discover Skincare </h1>
@@ -40,7 +52,7 @@ export default function DiscoverPage({allProduct, search}) {
           {/* right content */}
           <div className='flex-1 p-4 items-center'>
               <div className='relative'>
-                  <input type="text" className='border w-full border-gray-300 py-2 rounded-lg pl-15 pr-7 bg-white focus:outline-none' placeholder='Search products or brands...' onChange={(e) => {setSearchQuery(e.target.value)}} onKeyDown={handleSearch}/>
+                  <input type="text" className='border w-full border-gray-300 py-2 rounded-lg pl-15 pr-7 bg-white focus:outline-none' placeholder='Search products or brands...' onChange={(e) => {setSearchQuery(e.target.value)}}/>
                   <Search color='#8013eb' className='absolute top-2 left-5'/>
               </div>
               {/* product container */}
