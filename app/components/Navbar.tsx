@@ -31,7 +31,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#" className="text-md font-semibold text-slate-600 hover:text-primary transition-colors">
+            <a href="/comparison" className="text-md font-semibold text-slate-600 hover:text-primary transition-colors">
               Comparison
             </a>
           </li>
