@@ -1,11 +1,22 @@
-
+'use client'
 import React from 'react'
+import { useState } from 'react'
+import { useRouter } from 'next/navigation'
+
 import CategoryFilter from '../components/CategoryFilter'
 import ProductCard from '../components/ProductCard'
 
 import { Search } from 'lucide-react'
 
-export default function DiscoverPage({allProduct}) {
+export default function DiscoverPage({allProduct, search}) {
+  const router = useRouter()
+  const [searchQuery, setSearchQuery] = useState(search)
+
+  const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === "Enter"){
+      router.push(`/discover?search=${encodeURIComponent(searchQuery)}`)
+    }
+  }
   return (
     <section className='center-content py-14'>
         <h1 className='text-3xl font-bold'> Discover Skincare </h1>
@@ -29,7 +40,7 @@ export default function DiscoverPage({allProduct}) {
           {/* right content */}
           <div className='flex-1 p-4 items-center'>
               <div className='relative'>
-                  <input type="text" className='border w-full border-gray-300 py-2 rounded-lg pl-15 pr-7 bg-white focus:outline-none' placeholder='Search products or brands...'/>
+                  <input type="text" className='border w-full border-gray-300 py-2 rounded-lg pl-15 pr-7 bg-white focus:outline-none' placeholder='Search products or brands...' onChange={(e) => {setSearchQuery(e.target.value)}} onKeyDown={handleSearch}/>
                   <Search color='#8013eb' className='absolute top-2 left-5'/>
               </div>
               {/* product container */}
